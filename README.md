@@ -1,6 +1,6 @@
 # Mastermind-Game
 
-Mastermind is a code-breaking game [created in 1970 by Mordecai Meirowitz](https://en.wikipedia.org/wiki/Mastermind_(board_game)). For the final project you will recreate this game using the MSP430, a potentiometer, RGB LED, onboard button and 7-segment display.
+Mastermind is a code-breaking game [created in 1970 by Mordecai Meirowitz](https://en.wikipedia.org/wiki/Mastermind_(board_game)). Recreate this game using the MSP430, a potentiometer, RGB LED, onboard button and 7-segment display.
 
 ## Example Output
 
@@ -41,9 +41,6 @@ P2SEL  &= ~(BIT6 | BIT7);
 
 This line is provided in the template file for you.
 
-## Design
-
-For the final assignment, it will be easier to use C instead of assembly, so that is what the template file is written in. Feel free to do it in assembly if you really want, though.
 
 ### Step 1: Obtaining Keyboard Input
 
